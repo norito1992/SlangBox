@@ -99,7 +99,7 @@ Public Function getIcalHolidayData() As Collection
     Set inStream = Nothing
     
     'delete temporary file
-'    Kill saveAs
+    Kill saveAs
     
     Set getIcalHolidayData = hDataset
 
